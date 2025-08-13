@@ -1,0 +1,17 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentoExibirMensagem">
+
+    <fragment
+        android:id="@+id/fragmentoExibirMensagem"
+        android:name="com.example.contentproviderconsumidor.ui.fragments.FragmentoExibirMensagem"
+        android:label="Mensagem do Dia"
+        tools:layout="@layout/fragmento_exibir_mensagem" />
+    <fragment
+        android:id="@+id/fragmentoListarFavoritas"
+        android:name="com.example.contentproviderconsumidor.ui.fragments.FragmentoListarFavoritas"
+        android:label="Favoritas"
+        tools:layout="@layout/fragmento_listar_favoritas" />
+</navigation>
