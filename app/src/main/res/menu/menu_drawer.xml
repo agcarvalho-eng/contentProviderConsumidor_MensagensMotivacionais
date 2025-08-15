@@ -1,12 +1,17 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_home"
+            android:id="@+id/fragmentoExibirMensagem"
             android:icon="@drawable/home"
             android:title="Mensagem do Dia" />
+
         <item
-            android:id="@+id/nav_favoritas"
+            android:id="@+id/fragmentoListarFavoritas"
             android:icon="@drawable/favorite"
             android:title="Listar Favoritas" />
     </group>
+
 </menu>
